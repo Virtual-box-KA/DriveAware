@@ -1,6 +1,8 @@
 #include <CarDetection1_inferencing.h>
 // The code working on the trained model that is contained in the file <CarDetection1_inferencing.h> that was done using edge impluse
-// The model is directly used to detect vehicles on the road
+// The model is directly used to detect vehicles on the road that is contained in "ei-cardetection1-arduino-1.0.1.zip" library.
+// We need to import this library into our aurdino
+
 #include "edge-impulse-sdk/dsp/image/image.hpp"
 
 #include "esp_camera.h"
