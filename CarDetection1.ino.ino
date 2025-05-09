@@ -1,4 +1,6 @@
 #include <CarDetection1_inferencing.h>
+// The code working on the trained model that is contained in the file <CarDetection1_inferencing.h> that was done using edge impluse
+// The model is directly used to detect vehicles on the road
 #include "edge-impulse-sdk/dsp/image/image.hpp"
 
 #include "esp_camera.h"
